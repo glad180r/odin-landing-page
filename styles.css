@@ -8,6 +8,8 @@
     --hero-secondary-text: #E5E7EB;
     --button-color: #3882F6;
     --information-header-text: #1F2937;
+    --quote-section-background: #E5E7EB;
+    --quote-text: #1F2937;
 }
 
 *{
@@ -88,7 +90,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 65px;
 }
 
 .information-section-title{
@@ -114,4 +116,28 @@ header{
     border: solid 3px var(--button-color);
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+
+/* Quote Section */
+.quote-section{
+    background-color: var(--quote-section-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 85px;
+}
+
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 750px;
+}
+
+.quote-text-author{
+    font-weight: bold;
+    padding-left: 250px;
 }
