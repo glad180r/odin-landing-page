@@ -1,8 +1,12 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* General */ 
 :root{
     --dark-background: #1F2937;
+    --hero-main-text: #F9FAF8;
+    --hero-secondary-text: #E5E7EB;
+    --button-color: #3882F6;
 }
 
 *{
@@ -12,6 +16,8 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
+
+/* Header */
 header{
     background-color: var(--dark-background);
     color: white;
@@ -31,4 +37,46 @@ header{
 .header-links{
     display: flex;
     gap: 15px;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    background-color: var(--dark-background);
+    color: var(--hero-main-text);
+    justify-content: center;
+    gap: 25px;
+    padding: 70px 10px;
+}
+
+#hero-img{
+    width: 500px;
+    height: 200px;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    width: 400px;
+    font-weight: 900;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: var(--hero-secondary-text);
+    width: 390px;
+}
+
+.hero-sign-up-btn{
+    background-color: var(--button-color);
+    color: white;
+    height: 25px;
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.hero-sign-up-btn:hover{
+    cursor: pointer;
 }
