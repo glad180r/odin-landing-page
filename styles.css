@@ -141,3 +141,42 @@ header{
     font-weight: bold;
     padding-left: 250px;
 }
+
+/* Call-to-action section */
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+
+.call-to-action-box{
+    background-color: var(--button-color);
+    color: white;
+    width: 60%;
+    padding: 20px;
+    border-radius: 7.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-to-action-text{
+    font-weight: bold;
+}
+
+.call-to-action-subtext{
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.footer-btn{
+    background-color: var(--button-color);
+    color: white;
+    height: 25px;
+    width: 75px;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-weight: bold;
+}
