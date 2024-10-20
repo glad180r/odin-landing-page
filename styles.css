@@ -7,6 +7,7 @@
     --hero-main-text: #F9FAF8;
     --hero-secondary-text: #E5E7EB;
     --button-color: #3882F6;
+    --information-header-text: #1F2937;
 }
 
 *{
@@ -32,6 +33,7 @@ header{
 .logo-text{
     font-size: 1.25rem;
     font-weight: bold;
+    padding-left: 32.5px;
 }
 
 .header-links{
@@ -79,4 +81,37 @@ header{
 
 .hero-sign-up-btn:hover{
     cursor: pointer;
+}
+
+/* Information Section */
+.information-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.information-section-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--information-header-text);
+    margin: 40px 0;
+}
+
+.information-boxes-container{
+    display: flex;
+    gap: 45px;
+}
+
+.info-box{
+    width: 150px;
+    text-align: center;
+}
+
+.box{
+    width: 150px;
+    height: 175px;
+    border: solid 3px var(--button-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
